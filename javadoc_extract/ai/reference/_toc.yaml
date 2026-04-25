@@ -1,0 +1,84 @@
+toc:
+- title: "com.google.ai.edge.aicore"
+  path: "/ai/reference/com/google/ai/edge/aicore/package-summary.html"
+
+  section:
+  - title: "Interfaces"
+
+    section:
+    - title: "DownloadCallback"
+      path: "/ai/reference/com/google/ai/edge/aicore/DownloadCallback.html"
+    - title: "Part"
+      path: "/ai/reference/com/google/ai/edge/aicore/Part.html"
+
+  - title: "Classes"
+
+    section:
+    - title: "Candidate"
+      path: "/ai/reference/com/google/ai/edge/aicore/Candidate.html"
+    - title: "Content"
+      path: "/ai/reference/com/google/ai/edge/aicore/Content.html"
+    - title: "Content.Builder"
+      path: "/ai/reference/com/google/ai/edge/aicore/Content.Builder.html"
+    - title: "Content.Companion"
+      path: "/ai/reference/com/google/ai/edge/aicore/Content.Companion.html"
+    - title: "ContentKt"
+      path: "/ai/reference/com/google/ai/edge/aicore/ContentKt.html"
+    - title: "DownloadConfig"
+      path: "/ai/reference/com/google/ai/edge/aicore/DownloadConfig.html"
+    - title: "GenerateContentResponse"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerateContentResponse.html"
+    - title: "GenerationConfig"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerationConfig.html"
+    - title: "GenerationConfig.Builder"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerationConfig.Builder.html"
+    - title: "GenerationConfig.Companion"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerationConfig.Companion.html"
+    - title: "GenerationConfigKt"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerationConfigKt.html"
+    - title: "GenerativeModel"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerativeModel.html"
+    - title: "PartKt"
+      path: "/ai/reference/com/google/ai/edge/aicore/PartKt.html"
+    - title: "TextPart"
+      path: "/ai/reference/com/google/ai/edge/aicore/TextPart.html"
+
+  - title: "Exceptions"
+
+    section:
+    - title: "ConnectionException"
+      path: "/ai/reference/com/google/ai/edge/aicore/ConnectionException.html"
+    - title: "DownloadException"
+      path: "/ai/reference/com/google/ai/edge/aicore/DownloadException.html"
+    - title: "GenerativeAIException"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html"
+    - title: "InferenceException"
+      path: "/ai/reference/com/google/ai/edge/aicore/InferenceException.html"
+    - title: "PreparationException"
+      path: "/ai/reference/com/google/ai/edge/aicore/PreparationException.html"
+    - title: "TokenizationException"
+      path: "/ai/reference/com/google/ai/edge/aicore/TokenizationException.html"
+    - title: "UnknownException"
+      path: "/ai/reference/com/google/ai/edge/aicore/UnknownException.html"
+
+  - title: "Annotations"
+
+    section:
+    - title: "Candidate.FinishReason"
+      path: "/ai/reference/com/google/ai/edge/aicore/Candidate.FinishReason.html"
+    - title: "Content.Role"
+      path: "/ai/reference/com/google/ai/edge/aicore/Content.Role.html"
+    - title: "GenerativeAIException.ErrorCode"
+      path: "/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html"
+
+- title: "com.google.ai.edge.aicore.java"
+  path: "/ai/reference/com/google/ai/edge/aicore/java/package-summary.html"
+
+  section:
+  - title: "Classes"
+
+    section:
+    - title: "GenerativeModelFutures"
+      path: "/ai/reference/com/google/ai/edge/aicore/java/GenerativeModelFutures.html"
+
+

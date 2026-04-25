@@ -1,0 +1,379 @@
+<html devsite="true">
+  <head>
+    <title>GenerativeAIException.ErrorCode</title>
+{% setvar book_path %}/ai/reference/kotlin/_book.yaml{% endsetvar %}
+{% include "/ai/_dackka-meta-tags.html" %}
+  </head>
+  <body>
+    <div id="header-block">
+      <div>
+        <h1>GenerativeAIException.ErrorCode</h1>
+{% setvar page_path %}com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html{% endsetvar %}
+{% setvar doc_root_path %}/ai/reference{% endsetvar %}
+{% setvar can_switch %}1{% endsetvar %}
+{% include "/ai/reference/_kotlin_switcher2.md" %}
+      </div>
+    </div>
+    <div id="refdoc-switcher-placeholder"></div>
+    <p>
+      <pre>@<a href="https://developer.android.com/reference/androidx/annotation/IntDef.html">IntDef</a><br>annotation <a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html">GenerativeAIException.ErrorCode</a></pre>
+    </p>
+    <hr>
+    <p>The set of <code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.html">GenerativeAIException</a></code> error codes.</p>
+    <h2>Summary</h2>
+    <div class="devsite-table-wrapper">
+      <table class="responsive">
+        <colgroup>
+          <col width="40%">
+          <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Constants</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BAD_DATA()">BAD_DATA</a></code></div>
+              <p>Bad data for inputs.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BAD_REQUEST()">BAD_REQUEST</a></code></div>
+              <p>Bad request for inputs.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BINDING_DIED()">BINDING_DIED</a></code></div>
+              <p>AICore service binding is died.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BINDING_FAILURE()">BINDING_FAILURE</a></code></div>
+              <p>Error during service binding.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BUSY()">BUSY</a></code></div>
+              <p>The service is currently busy.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#CANCELLED()">CANCELLED</a></code></div>
+              <p>Inference cancelled.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#COMPUTE_ERROR()">COMPUTE_ERROR</a></code></div>
+              <p>Underlying inference engine encounters an error and fails to compute results.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#IPC_ERROR()">IPC_ERROR</a></code></div>
+              <p>IPC error.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NEEDS_SYSTEM_UPDATE()">NEEDS_SYSTEM_UPDATE</a></code></div>
+              <p>AICore service requires Android system update to function properly.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NOT_AVAILABLE()">NOT_AVAILABLE</a></code></div>
+              <p>Underlying inference engine is not available.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NOT_ENOUGH_DISK_SPACE()">NOT_ENOUGH_DISK_SPACE</a></code></div>
+              <p>Download error.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NULL_BINDING()">NULL_BINDING</a></code></div>
+              <p>AICore service returns null on binding.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#REQUEST_PROCESSING_ERROR()">REQUEST_PROCESSING_ERROR</a></code></div>
+              <p>Request encountered error during processing, and no response will be generated.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#REQUEST_TOO_LARGE()">REQUEST_TOO_LARGE</a></code></div>
+              <p>Request is too large to be processed by AICore.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#RESPONSE_GENERATION_ERROR()">RESPONSE_GENERATION_ERROR</a></code></div>
+              <p>The model failed to generate a proper response.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#RESPONSE_PROCESSING_ERROR()">RESPONSE_PROCESSING_ERROR</a></code></div>
+              <p>Response generated encountered error.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#SERVICE_DISCONNECTED()">SERVICE_DISCONNECTED</a></code></div>
+              <p>AICore service is disconnected.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#SERVICE_PROCESSING_ERROR()">SERVICE_PROCESSING_ERROR</a></code></div>
+              <p>The service encountered an error during processing.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><code>const <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#UNKNOWN()">UNKNOWN</a></code></div>
+              <p>Unknown failures.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="devsite-table-wrapper">
+      <table class="responsive">
+        <colgroup>
+          <col width="40%">
+          <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Public constructors</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td>
+              <div><code><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#ErrorCode()">ErrorCode</a>()</code></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="list">
+      <h2>Constants</h2>
+      <div class="api-item"><a name="getBAD_DATA()"></a><a name="setBAD_DATA()"></a><a name="getBAD_DATA--"></a><a name="setBAD_DATA--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="BAD_DATA()">BAD_DATA</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BAD_DATA()">BAD_DATA</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Bad data for inputs.</p>
+      </div>
+      <div class="api-item"><a name="getBAD_REQUEST()"></a><a name="setBAD_REQUEST()"></a><a name="getBAD_REQUEST--"></a><a name="setBAD_REQUEST--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="BAD_REQUEST()">BAD_REQUEST</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BAD_REQUEST()">BAD_REQUEST</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Bad request for inputs.</p>
+      </div>
+      <div class="api-item"><a name="getBINDING_DIED()"></a><a name="setBINDING_DIED()"></a><a name="getBINDING_DIED--"></a><a name="setBINDING_DIED--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="BINDING_DIED()">BINDING_DIED</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BINDING_DIED()">BINDING_DIED</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>AICore service binding is died.</p>
+      </div>
+      <div class="api-item"><a name="getBINDING_FAILURE()"></a><a name="setBINDING_FAILURE()"></a><a name="getBINDING_FAILURE--"></a><a name="setBINDING_FAILURE--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="BINDING_FAILURE()">BINDING_FAILURE</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BINDING_FAILURE()">BINDING_FAILURE</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Error during service binding.</p>
+      </div>
+      <div class="api-item"><a name="getBUSY()"></a><a name="setBUSY()"></a><a name="getBUSY--"></a><a name="setBUSY--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="BUSY()">BUSY</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#BUSY()">BUSY</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>The service is currently busy. Callers should retry with exponential backoff.</p>
+      </div>
+      <div class="api-item"><a name="getCANCELLED()"></a><a name="setCANCELLED()"></a><a name="getCANCELLED--"></a><a name="setCANCELLED--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="CANCELLED()">CANCELLED</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#CANCELLED()">CANCELLED</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Inference cancelled.</p>
+      </div>
+      <div class="api-item"><a name="getCOMPUTE_ERROR()"></a><a name="setCOMPUTE_ERROR()"></a><a name="getCOMPUTE_ERROR--"></a><a name="setCOMPUTE_ERROR--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="COMPUTE_ERROR()">COMPUTE_ERROR</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#COMPUTE_ERROR()">COMPUTE_ERROR</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Underlying inference engine encounters an error and fails to compute results.</p>
+      </div>
+      <div class="api-item"><a name="getIPC_ERROR()"></a><a name="setIPC_ERROR()"></a><a name="getIPC_ERROR--"></a><a name="setIPC_ERROR--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="IPC_ERROR()">IPC_ERROR</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#IPC_ERROR()">IPC_ERROR</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>IPC error.</p>
+      </div>
+      <div class="api-item"><a name="getNEEDS_SYSTEM_UPDATE()"></a><a name="setNEEDS_SYSTEM_UPDATE()"></a><a name="getNEEDS_SYSTEM_UPDATE--"></a><a name="setNEEDS_SYSTEM_UPDATE--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="NEEDS_SYSTEM_UPDATE()">NEEDS_SYSTEM_UPDATE</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NEEDS_SYSTEM_UPDATE()">NEEDS_SYSTEM_UPDATE</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>AICore service requires Android system update to function properly.</p>
+      </div>
+      <div class="api-item"><a name="getNOT_AVAILABLE()"></a><a name="setNOT_AVAILABLE()"></a><a name="getNOT_AVAILABLE--"></a><a name="setNOT_AVAILABLE--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="NOT_AVAILABLE()">NOT_AVAILABLE</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NOT_AVAILABLE()">NOT_AVAILABLE</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Underlying inference engine is not available.</p>
+      </div>
+      <div class="api-item"><a name="getNOT_ENOUGH_DISK_SPACE()"></a><a name="setNOT_ENOUGH_DISK_SPACE()"></a><a name="getNOT_ENOUGH_DISK_SPACE--"></a><a name="setNOT_ENOUGH_DISK_SPACE--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="NOT_ENOUGH_DISK_SPACE()">NOT_ENOUGH_DISK_SPACE</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NOT_ENOUGH_DISK_SPACE()">NOT_ENOUGH_DISK_SPACE</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Download error.</p>
+      </div>
+      <div class="api-item"><a name="getNULL_BINDING()"></a><a name="setNULL_BINDING()"></a><a name="getNULL_BINDING--"></a><a name="setNULL_BINDING--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="NULL_BINDING()">NULL_BINDING</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#NULL_BINDING()">NULL_BINDING</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>AICore service returns null on binding.</p>
+      </div>
+      <div class="api-item"><a name="getREQUEST_PROCESSING_ERROR()"></a><a name="setREQUEST_PROCESSING_ERROR()"></a><a name="getREQUEST_PROCESSING_ERROR--"></a><a name="setREQUEST_PROCESSING_ERROR--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="REQUEST_PROCESSING_ERROR()">REQUEST_PROCESSING_ERROR</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#REQUEST_PROCESSING_ERROR()">REQUEST_PROCESSING_ERROR</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Request encountered error during processing, and no response will be generated. Note that this may be due to the inference engine refusing to generate a response e.g. because of safety filtering triggering.</p>
+      </div>
+      <div class="api-item"><a name="getREQUEST_TOO_LARGE()"></a><a name="setREQUEST_TOO_LARGE()"></a><a name="getREQUEST_TOO_LARGE--"></a><a name="setREQUEST_TOO_LARGE--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="REQUEST_TOO_LARGE()">REQUEST_TOO_LARGE</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#REQUEST_TOO_LARGE()">REQUEST_TOO_LARGE</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Request is too large to be processed by AICore.</p>
+      </div>
+      <div class="api-item"><a name="getRESPONSE_GENERATION_ERROR()"></a><a name="setRESPONSE_GENERATION_ERROR()"></a><a name="getRESPONSE_GENERATION_ERROR--"></a><a name="setRESPONSE_GENERATION_ERROR--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="RESPONSE_GENERATION_ERROR()">RESPONSE_GENERATION_ERROR</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#RESPONSE_GENERATION_ERROR()">RESPONSE_GENERATION_ERROR</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>The model failed to generate a proper response.</p>
+      </div>
+      <div class="api-item"><a name="getRESPONSE_PROCESSING_ERROR()"></a><a name="setRESPONSE_PROCESSING_ERROR()"></a><a name="getRESPONSE_PROCESSING_ERROR--"></a><a name="setRESPONSE_PROCESSING_ERROR--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="RESPONSE_PROCESSING_ERROR()">RESPONSE_PROCESSING_ERROR</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#RESPONSE_PROCESSING_ERROR()">RESPONSE_PROCESSING_ERROR</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Response generated encountered error. Note that this may be due to the inference engine refusing to generate a response e.g. because of safety filtering triggering.</p>
+      </div>
+      <div class="api-item"><a name="getSERVICE_DISCONNECTED()"></a><a name="setSERVICE_DISCONNECTED()"></a><a name="getSERVICE_DISCONNECTED--"></a><a name="setSERVICE_DISCONNECTED--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="SERVICE_DISCONNECTED()">SERVICE_DISCONNECTED</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#SERVICE_DISCONNECTED()">SERVICE_DISCONNECTED</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>AICore service is disconnected.</p>
+      </div>
+      <div class="api-item"><a name="getSERVICE_PROCESSING_ERROR()"></a><a name="setSERVICE_PROCESSING_ERROR()"></a><a name="getSERVICE_PROCESSING_ERROR--"></a><a name="setSERVICE_PROCESSING_ERROR--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="SERVICE_PROCESSING_ERROR()">SERVICE_PROCESSING_ERROR</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#SERVICE_PROCESSING_ERROR()">SERVICE_PROCESSING_ERROR</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>The service encountered an error during processing.</p>
+      </div>
+      <div class="api-item"><a name="getUNKNOWN()"></a><a name="setUNKNOWN()"></a><a name="getUNKNOWN--"></a><a name="setUNKNOWN--"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="UNKNOWN()">UNKNOWN</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">const&nbsp;val&nbsp;<a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#UNKNOWN()">UNKNOWN</a>:&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></pre>
+        <p>Unknown failures.</p>
+      </div>
+    </div>
+    <div class="list">
+      <h2>Public constructors</h2>
+      <div class="api-item"><a name="ErrorCode--"></a><a name="errorcode"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="ErrorCode()">ErrorCode</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print"><a href="/ai/reference/kotlin/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html#ErrorCode()">ErrorCode</a>()</pre>
+      </div>
+    </div>
+  </body>
+</html>
+

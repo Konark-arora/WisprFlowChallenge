@@ -1,0 +1,282 @@
+<html devsite="true">
+  <head>
+    <title>GenerativeAIException</title>
+{% include "/ai/_dackka-meta-tags.html" %}
+  </head>
+  <body>
+    <div id="header-block">
+      <div>
+        <h1>GenerativeAIException</h1>
+{% setvar page_path %}com/google/ai/edge/aicore/GenerativeAIException.html{% endsetvar %}
+{% setvar doc_root_path %}/ai/reference{% endsetvar %}
+{% setvar can_switch %}1{% endsetvar %}
+{% include "/ai/reference/_java_switcher2.md" %}
+      </div>
+    </div>
+    <div id="refdoc-switcher-placeholder"></div>
+    <p>
+      <pre>public sealed class <a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html">GenerativeAIException</a> extends <a href="https://developer.android.com/reference/java/lang/Exception.html">Exception</a></pre>
+    </p>
+    <div class="devsite-table-wrapper">
+      <table class="jd-inheritance-table">
+        <tbody>
+          <tr>
+            <td colspan="4"><a href="https://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+          </tr>
+          <tr>
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;↳</td>
+            <td colspan="3"><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html">kotlin.Throwable</a></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;↳</td>
+            <td colspan="2"><a href="https://developer.android.com/reference/java/lang/Exception.html">java.lang.Exception</a></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;↳</td>
+            <td colspan="1"><a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html">com.google.ai.edge.aicore.GenerativeAIException</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="devsite-table-wrapper"><devsite-expandable><span class="expand-control jd-sumtable-subclasses">Known direct subclasses
+        <div class="showalways" id="subclasses-direct"><a href="/ai/reference/com/google/ai/edge/aicore/ConnectionException.html">ConnectionException</a>, <a href="/ai/reference/com/google/ai/edge/aicore/DownloadException.html">DownloadException</a>, <a href="/ai/reference/com/google/ai/edge/aicore/InferenceException.html">InferenceException</a>, <a href="/ai/reference/com/google/ai/edge/aicore/PreparationException.html">PreparationException</a>, <a href="/ai/reference/com/google/ai/edge/aicore/TokenizationException.html">TokenizationException</a>, <a href="/ai/reference/com/google/ai/edge/aicore/UnknownException.html">UnknownException</a></div>
+      </span>
+      <div id="subclasses-direct-summary">
+        <div class="devsite-table-wrapper">
+          <table class="responsive">
+            <colgroup>
+              <col width="40%">
+              <col>
+            </colgroup>
+            <tbody class="list">
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/ConnectionException.html">ConnectionException</a></code></td>
+                <td>
+                  <p>Error during connection.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/DownloadException.html">DownloadException</a></code></td>
+                <td>
+                  <p>Error during download.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/InferenceException.html">InferenceException</a></code></td>
+                <td>
+                  <p>Error during inference.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/PreparationException.html">PreparationException</a></code></td>
+                <td>
+                  <p>Error during preparation.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/TokenizationException.html">TokenizationException</a></code></td>
+                <td>
+                  <p>Error during tokenization.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/UnknownException.html">UnknownException</a></code></td>
+                <td>
+                  <p>Unknown Error.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+</devsite-expandable>    </div>
+    <hr>
+    <p>Parent class for any errors that occur from <code><a href="/ai/reference/com/google/ai/edge/aicore/GenerativeModel.html">GenerativeModel</a></code>.</p>
+    <h2>Summary</h2>
+    <div class="devsite-table-wrapper">
+      <table class="responsive">
+        <colgroup>
+          <col width="40%">
+          <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Nested types</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td>
+              <div><code>@<a href="https://developer.android.com/reference/androidx/annotation/IntDef.html">IntDef</a><br>public annotation <a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html">GenerativeAIException.ErrorCode</a></code></div>
+              <p>The set of <code><a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html">GenerativeAIException</a></code> error codes.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="devsite-table-wrapper">
+      <table class="responsive">
+        <colgroup>
+          <col width="40%">
+          <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Protected constructors</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td>
+              <div><code><a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html#GenerativeAIException(kotlin.String,kotlin.Throwable,kotlin.Int)">GenerativeAIException</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/String.html">String</a>&nbsp;message,<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a>&nbsp;cause,<br>&nbsp;&nbsp;&nbsp;&nbsp;@<a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html">GenerativeAIException.ErrorCode</a> int&nbsp;errorCode<br>)</code></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="devsite-table-wrapper">
+      <table class="responsive">
+        <colgroup>
+          <col width="40%">
+          <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Public methods</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td><code>final int</code></td>
+            <td>
+              <div><code><a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html#getErrorCode()">getErrorCode</a>()</code></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="devsite-table-wrapper">
+      <table class="responsive" id="inhmethods">
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Inherited methods</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td><devsite-expandable><span class="expand-control">From <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html">kotlin.Throwable</a></span>
+              <div class="devsite-table-wrapper">
+                <table class="responsive">
+                  <colgroup>
+                    <col width="40%">
+                    <col>
+                  </colgroup>
+                  <tbody class="list">
+                    <tr>
+                      <td><code>final void</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#addSuppressed(kotlin.Throwable)">addSuppressed</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a>&nbsp;p0)</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a></code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#fillInStackTrace()">fillInStackTrace</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code><a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a></code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#getCause()">getCause</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/String.html">String</a></code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#getLocalizedMessage()">getLocalizedMessage</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code><a href="https://developer.android.com/reference/java/lang/String.html">String</a></code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#getMessage()">getMessage</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> StackTraceElement[]</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#getStackTrace()">getStackTrace</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>final @<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> Throwable[]</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#getSuppressed()">getSuppressed</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a></code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#initCause(kotlin.Throwable)">initCause</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a>&nbsp;p0)</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>void</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#printStackTrace()">printStackTrace</a>()</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>void</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#printStackTrace(java.io.PrintStream)">printStackTrace</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/io/PrintStream.html">PrintStream</a>&nbsp;p0)</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>void</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#printStackTrace(java.io.PrintWriter)">printStackTrace</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/io/PrintWriter.html">PrintWriter</a>&nbsp;p0)</code></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><code>void</code></td>
+                      <td>
+                        <div><code><a href="https://developer.android.com/reference/java/lang/Throwable.html#setStackTrace(kotlin.Array[java.lang.StackTraceElement])">setStackTrace</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> StackTraceElement[]&nbsp;p0)</code></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+</devsite-expandable>            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="list">
+      <h2>Protected constructors</h2>
+      <div class="api-item"><a name="GenerativeAIException(kotlin.String, kotlin.Throwable, kotlin.Int)"></a><a name="GenerativeAIException-kotlin.String-kotlin.Throwable-kotlin.Int-"></a><a name="generativeaiexception"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="GenerativeAIException(kotlin.String,kotlin.Throwable,kotlin.Int)">GenerativeAIException</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">protected&nbsp;<a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html#GenerativeAIException(kotlin.String,kotlin.Throwable,kotlin.Int)">GenerativeAIException</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="https://developer.android.com/reference/java/lang/String.html">String</a>&nbsp;message,<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developer.android.com/reference/java/lang/Throwable.html">Throwable</a>&nbsp;cause,<br>&nbsp;&nbsp;&nbsp;&nbsp;@<a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.ErrorCode.html">GenerativeAIException.ErrorCode</a> int&nbsp;errorCode<br>)</pre>
+      </div>
+    </div>
+    <div class="list">
+      <h2>Public methods</h2>
+      <div class="api-item"><a name="getErrorCode--"></a><a name="geterrorcode"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="getErrorCode()">getErrorCode</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">public&nbsp;final&nbsp;int&nbsp;<a href="/ai/reference/com/google/ai/edge/aicore/GenerativeAIException.html#getErrorCode()">getErrorCode</a>()</pre>
+      </div>
+    </div>
+  </body>
+</html>
+

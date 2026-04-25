@@ -1,0 +1,47 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+javadoc_extract/
+/.javadoc_extract/
+app/src/main/assets/models/
+
+/.idea/caches/
+/.idea/libraries/
+/.idea/nav_editor.xml
+.cxx/
+
+# --- Build Artifacts ---
+build/
+*.pyc
+*.class
+.gradle/
+CAPS_LOCK/
+
+# --- Proguard/R8 mapping files ---
+/app/build/outputs/mapping/
+
+# --- Log files ---
+*.log
+
+# --- External Native Build Artifacts ---
+.externalNativeBuild/
+.cmake/
+
+# --- OS Specific ---
+Thumbs.db
+
+# --- Device/Emulator ---
+captures/
+

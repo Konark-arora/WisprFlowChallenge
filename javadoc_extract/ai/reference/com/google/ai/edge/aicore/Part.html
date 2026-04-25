@@ -1,0 +1,101 @@
+<html devsite="true">
+  <head>
+    <title>Part</title>
+{% include "/ai/_dackka-meta-tags.html" %}
+  </head>
+  <body>
+    <div id="header-block">
+      <div>
+        <h1>Part</h1>
+{% setvar page_path %}com/google/ai/edge/aicore/Part.html{% endsetvar %}
+{% setvar doc_root_path %}/ai/reference{% endsetvar %}
+{% setvar can_switch %}1{% endsetvar %}
+{% include "/ai/reference/_java_switcher2.md" %}
+      </div>
+    </div>
+    <div id="refdoc-switcher-placeholder"></div>
+    <p>
+      <pre>public interface <a href="/ai/reference/com/google/ai/edge/aicore/Part.html">Part</a></pre>
+    </p>
+    <div class="devsite-table-wrapper"><devsite-expandable><span class="expand-control jd-sumtable-subclasses">Known direct subclasses
+        <div class="showalways" id="subclasses-direct"><a href="/ai/reference/com/google/ai/edge/aicore/TextPart.html">TextPart</a></div>
+      </span>
+      <div id="subclasses-direct-summary">
+        <div class="devsite-table-wrapper">
+          <table class="responsive">
+            <colgroup>
+              <col width="40%">
+              <col>
+            </colgroup>
+            <tbody class="list">
+              <tr>
+                <td><code><a href="/ai/reference/com/google/ai/edge/aicore/TextPart.html">TextPart</a></code></td>
+                <td>
+                  <p>Represents text or string based data sent to and received from requests.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+</devsite-expandable>    </div>
+    <hr>
+    <p>Interface representing data sent to and received from requests.</p>
+    <p><code><a href="/ai/reference/com/google/ai/edge/aicore/TextPart.html">TextPart</a></code> representing text or string based data.</p>
+    <h2>Summary</h2>
+    <div class="devsite-table-wrapper">
+      <table class="responsive">
+        <colgroup>
+          <col width="40%">
+          <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th colspan="100%"><h3>Extension functions</h3></th>
+          </tr>
+        </thead>
+        <tbody class="list">
+          <tr>
+            <td><code>default&nbsp;final <a href="https://developer.android.com/reference/java/lang/String.html">String</a></code></td>
+            <td>
+              <div><code><a href="/ai/reference/com/google/ai/edge/aicore/PartKt.html">PartKt</a>.<a href="/ai/reference/com/google/ai/edge/aicore/Part.html#(com.google.ai.edge.aicore.Part).asTextOrNull()">asTextOrNull</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="/ai/reference/com/google/ai/edge/aicore/Part.html">Part</a>&nbsp;receiver)</code></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="list">
+      <h2>Extension functions</h2>
+      <div class="api-item"><a name="-com.google.ai.edge.aicore.Part-.asTextOrNull--"></a><a name="astextornull"></a>
+        <div class="api-name-block">
+          <div>
+            <h3 id="(com.google.ai.edge.aicore.Part).asTextOrNull()">PartKt.asTextOrNull</h3>
+          </div>
+        </div>
+        <pre class="api-signature no-pretty-print">default&nbsp;final&nbsp;<a href="https://developer.android.com/reference/java/lang/String.html">String</a>&nbsp;<a href="/ai/reference/com/google/ai/edge/aicore/PartKt.html">PartKt</a>.<a href="/ai/reference/com/google/ai/edge/aicore/Part.html#(com.google.ai.edge.aicore.Part).asTextOrNull()">asTextOrNull</a>(@<a href="https://developer.android.com/reference/androidx/annotation/NonNull.html">NonNull</a> <a href="/ai/reference/com/google/ai/edge/aicore/Part.html">Part</a>&nbsp;receiver)</pre>
+        <div class="devsite-table-wrapper">
+          <table class="responsive">
+            <colgroup>
+              <col width="40%">
+              <col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="100%">Returns</th>
+              </tr>
+            </thead>
+            <tbody class="list">
+              <tr>
+                <td><code><a href="https://developer.android.com/reference/java/lang/String.html">String</a></code></td>
+                <td>
+                  <p>The part as a <code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></code> if it represents text, and null otherwise</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
