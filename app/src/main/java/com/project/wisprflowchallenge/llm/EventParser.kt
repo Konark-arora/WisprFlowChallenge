@@ -71,14 +71,8 @@ class EventParser(private var provider: LlmProvider) {
             - Always return valid JSON (no trailing commas)
         """.trimIndent()
 
-        android.util.Log.d("EventParser", "Original: $transcript")
-        android.util.Log.d("EventParser", "Normalized: $normalized")
-        android.util.Log.d("EventParser", "Resolved: $resolved")
-
         return try {
             val raw = provider.generateContent(prompt)
-
-            android.util.Log.d("EventParser", "LLM raw output before: $raw")
 
             if (raw.isNullOrEmpty()) {
                 return fallbackParse(transcript)
