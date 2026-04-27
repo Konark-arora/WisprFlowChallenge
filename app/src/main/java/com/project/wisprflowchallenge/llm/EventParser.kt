@@ -134,12 +134,6 @@ class EventParser(private var provider: LlmProvider) {
         return Regex("^([01]?\\d|2[0-3]):[0-5]\\d$").matches(value)
     }
 
-//    private fun resolveRelativeWords(text: String): String {
-//        return text
-//            .replace("noon", "12:00")
-//            .replace("midnight", "00:00")
-//    }
-
     private fun extractJson(raw: String): String {
         val start = raw.indexOf("{")
         val end = raw.lastIndexOf("}")

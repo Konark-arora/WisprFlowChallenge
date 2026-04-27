@@ -58,7 +58,7 @@ class CalendarViewModel(
                 .collect { errorMessage ->
                     Log.e("CalendarViewModel", "VoiceRecognizer error: $errorMessage")
                     _uiState.value = UiState.Error(errorMessage)
-                    // ✅ Auto-reset to Idle after 2 seconds so user can try again
+                    // Auto-reset to Idle after 2 seconds so user can try again
                     delay(2000)
                     if (_uiState.value is UiState.Error) {
                         _uiState.value = UiState.Idle
@@ -73,7 +73,6 @@ class CalendarViewModel(
     }
 
     fun initializeModel(fallbacks: List<LlmProvider> = emptyList()) {
-        // ✅ Cancel racing calls
         initJob?.cancel()
 
         initJob = viewModelScope.launch {
@@ -93,7 +92,7 @@ class CalendarViewModel(
                     eventParser = EventParser(provider)
                     eventParser.prepare()
                     _uiState.value = UiState.Idle
-                    Log.d("CalendarViewModel", "✅ ${provider::class.simpleName} succeeded → Idle")
+                    Log.d("CalendarViewModel", " ${provider::class.simpleName} succeeded → Idle")
                     success = true
                     break
                 } catch (e: Throwable) {
@@ -102,7 +101,7 @@ class CalendarViewModel(
             }
 
             if (!success) {
-                Log.e("CalendarViewModel", "❌ All providers failed")
+                Log.e("CalendarViewModel", "All providers failed")
                 _uiState.value = UiState.Unavailable(
                     "No AI model available. Check your internet connection."
                 )
@@ -167,7 +166,6 @@ class CalendarViewModel(
         Log.d("CalendarViewModel", "confirmEvent: $event")
         val success = calendarRepo.insertEvent(event)
         if (success) {
-            Log.d("CalendarViewModel", "✅ Event saved")
             _uiState.value = UiState.Done(event)
             viewModelScope.launch {
                 delay(2000)
@@ -176,7 +174,6 @@ class CalendarViewModel(
                 }
             }
         } else {
-            Log.e("CalendarViewModel", "❌ Failed to save event")
             _uiState.value = UiState.Error("Couldn't save to calendar. Check permissions.")
         }
     }
